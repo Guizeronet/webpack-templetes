@@ -20,7 +20,7 @@ module.exports = {
   		},
 
   		{
-			test: /\.scss$/,
+			test: /\.s[ac]ss$/,
 			exclude: /node_modules/,
 			use: [
 				{
