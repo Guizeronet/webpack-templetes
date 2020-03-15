@@ -20,7 +20,7 @@ webpack.config.js	[configurations for webpack]
 
 - Use
 
-Development: execute to watch modifications in files and generate files quickly skping the unglyfy process.
+Development: execute to watch modifications in files and generate the outputs quickly skping the unglyfy process.
 
 * npm run build:watch
 
