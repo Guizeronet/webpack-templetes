@@ -1,14 +1,17 @@
-Simple Webpack configuration file.
+Simple Webpack structure template.
 
 - Functions
 	* Generate a JS bundles;
+		- optmized
+	* Generates CSS thought SCSS;
+		- packed with bundle.js file
 
 - Structure
 
 index.html		[start html file]
 webpack.config.js	[configurations for webpack]
 /dist			[output folder to generated files]
-/src			[source folder (js, css, png, html)]
+/src			[source folder (js, scss)]
 /package.json		[configurations for npm]
 
 - Setup
