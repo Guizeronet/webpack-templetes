@@ -3,7 +3,7 @@ Simple Webpack structure template and configuration.
 - Functions
 	* Generate a JS bundles;
 		- optmized
-	* Generates CSS thought SCSS;
+	* Generates CSS thought SASS or SCSS;
 		- packed with bundle.js file
 
 - Structure
