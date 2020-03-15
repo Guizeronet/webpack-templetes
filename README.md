@@ -1,4 +1,4 @@
-Simple Webpack structure template.
+Simple Webpack structure template and configuration.
 
 - Functions
 	* Generate a JS bundles;
@@ -20,8 +20,8 @@ webpack.config.js	[configurations for webpack]
 
 - Use
 
-Development: execute to watch modifications in files and generate files quickly
-skping the unglyfy process.
+Development: execute to watch modifications in files and generate files quickly skping the unglyfy process.
+
 * npm run build:watch
 
 Production: generates all files with all otimizations.
