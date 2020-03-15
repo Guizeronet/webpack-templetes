@@ -1,3 +1,3 @@
 module.exports = function (name) {
-	document.write(`Hello ${name}`);
+	document.getElementById('app').innerText = `Hello ${name}`;
 };
