@@ -6,5 +6,18 @@ module.exports = {
   output: {  
     path: path.resolve('dist'),  
     filename: 'bundle.js'  
-  }  
+  },
+
+  module: {
+  	rules: [
+  		{
+  			test: /\.js$/,
+  			exclude: /node_modules/,
+  			loader: "babel-loader",
+			query: {
+				presets: ['@babel/env']
+			}
+  		}
+  	]
+  }
 }
