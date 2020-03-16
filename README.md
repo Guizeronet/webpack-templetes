@@ -13,7 +13,7 @@ That is why I chose to develop in an https environment to have a closer view of 
 	* Generate a JS bundles;
 		- optmized
 	* Generates CSS thought SASS or SCSS;
-		- packed with bundle.js file
+		- in separated file and directory
 	* Structured
 		- improved file structure
 
@@ -53,4 +53,15 @@ Production: generates all files with all otimizations.
 
 * npm run build:prod
 
+- Project Structure
 
+This project is organized in branches, each branch solver a problem in a certain level of complexity. When you need a template only clone the branch with your needs.
+
+* master
+	- Basic webpack, only generates js and css in a single file;
+	- With a low complexity in file structure.
+* https-server
+	- Generates each type of file in diferents folders;
+	- File structure improved;
+	- Host files under https;
+	- Able uses web browser APIs like webcan and voice recognition in the easyest way.
