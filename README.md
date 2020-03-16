@@ -8,17 +8,29 @@ I could pass a flag to my browser and this would be enabled, but it would leave 
 That is why I chose to develop in an https environment to have a closer view of the user and also already prepare my application for the development environment, leaving me free from the tricks of the transition from an unsafe environment to safe.
 
 - Functions
+	* Host files under HTTPS for development;
+		- unsecure https, only for development
 	* Generate a JS bundles;
 		- optmized
 	* Generates CSS thought SASS or SCSS;
 		- packed with bundle.js file
+	* Structured
+		- improved file structure
 
 - Structure
 
-	- index.html		[start html file]
+	- server.js		[express https server executable]
 	- webpack.config.js	[configurations for webpack]
-	- /dist			[output folder to generated files]
+	- /certificate		[certificates folder]
 	- /src			[source folder (js, scss)]
+		- /js		[js files]
+		- sass		[sass or scss files]
+	- /pages		[folder to host html files]
+		- index.html	[Application entry point. The server will redirect to this file when the root is acessed]
+	- /public		[folder to host public files like images, css, js and others]
+		- /css		[webpack generated css files]
+		- /img		[images files used in project]
+		- /js		[webpack generated js files]
 	- /package.json		[configurations for npm]
 
 - Setup
