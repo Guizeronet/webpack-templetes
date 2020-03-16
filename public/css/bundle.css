@@ -1,0 +1,22 @@
+#app {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  line-height: 9;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+  background-color: #F59;
+  color: #fff; }
+
+#video-element {
+  width: 300px;
+  height: 300px;
+  margin: 5px auto;
+  line-height: 9;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+  background-color: #F59;
+  display: block; }
+

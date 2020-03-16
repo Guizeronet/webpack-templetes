@@ -115,5 +115,7 @@ dist
 .pnp.*
 
 # project exclusions
-dist/
+public/js/
+public/img/
+public/css/
 certificate/
